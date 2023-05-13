@@ -46,7 +46,6 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 
 ![Gambar]()
 
-
 ### Centralized Version Control
 
 - Masalah yang terjadi pad Local Version Control adalah, jika komputer rusak, maka seluruh data bisa hilang
@@ -97,7 +96,7 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 
 - Git adalah aplikasi OpenSource dan Gratis, kita bisa download aplikasi Git dengan bebas
 - Git tersedia untuk berbagain sistem operasi, seperti Windows, Mac, dan Linux
-- Kita bisa download Git di : https://git-scm.com/downloads
+- Kita bisa download Git di : <https://git-scm.com/downloads>
 
 ### Memastikan Git Berjalan
 
@@ -106,7 +105,7 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 
 ### Tool Pembantu
 
-- Visual Studio Code : https://code.visualstudio.com/
+- Visual Studio Code : <https://code.visualstudio.com/>
 - Install di PATH
 
 ## #3 Configuration
@@ -116,7 +115,7 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 - Setelah selesai menginstall git, hal yang pertama kita lakukan adalah melakukan konfigurasi
 - Yang paling utama yang perlu kita konfigurasi diawal adalah user name dan user email
 
-```
+```bash
 git config --global user.name "Eko Kurniawan Khannedy"
 git config --global user.email "echo.khannedy@gmail.com"
 ```
@@ -125,18 +124,18 @@ git config --global user.email "echo.khannedy@gmail.com"
 
 - Agar mempermudah, kita akan menjadikan Visual Studio Code sebagai default editor untuk Git dan default diff tool
 
-```
+```bash
 git config --global core.editor "code --wait"
 ```
 
-```
+```bash
 git config --global diff.tool "default-difftool"
 git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
 ```
 
 ### Melihat Seluruh Configuration
 
-```
+```bash
 git config --list --show-origin
 ```
 
@@ -157,14 +156,14 @@ git config --list --show-origin
 
 ### Kodde : Git Init
 
-```
-$ git init
+```bash
+git init
 ```
 
 ### Kode : Git Status
 
-```
-$ git status
+```bash
+git status
 ```
 
 ## #5 Workflow
@@ -218,7 +217,7 @@ $ git status
 - Setiap snapshot yang kita lakukan, semua akan menghasilkan hash sebagai identitas snapshot nya
 - Hash menrupakan checksum untuk menghitung perubahan yang terjadi
 - Git menggunakan algoritma SHA-1 untuk menghitung hash
-- Hash dibutuhkan untuk menjaga data integrity, sehingga tiap snapshot yang sudah kita lakukan tidak bisa diubah, hal ini karena akan secara otomatis merusak hash yang sudah dibuat 
+- Hash dibutuhkan untuk menjaga data integrity, sehingga tiap snapshot yang sudah kita lakukan tidak bisa diubah, hal ini karena akan secara otomatis merusak hash yang sudah dibuat
 - Contoh hash Git : 30534abcdede891829182912891289bbd
 
 ### Diagram Snapshot
@@ -252,22 +251,22 @@ $ git status
 
 ### Kode : Untracked Files
 
-```
-$ git status
+```bash
+git status
 ```
 
 ### Kode : Memindahkan ke Staging Index
 
-```
-$ git add file.txt
-$ git status
+```bash
+git add file.txt
+git status
 ```
 
 ### Kode : Commit ke Repository
 
-```
-$ git commit -m "Menambah file.txt"
-$ git status
+```bash
+git commit -m "Menambah file.txt"
+git status
 ```
 
 ### Tugas
@@ -283,10 +282,10 @@ $ git status
 - Secara otomatis git bisa mendeteksi perubahan
 - Sama seperti dengan menambah file, jika perubahan ingin kita simpan secara permanen, kita bisa pindahkan ke staging index, lalu commit ke Repository
 
-### Kode : Git Status
+### Kode : Git Status (1)
 
-```
-$ git status
+```bash
+git status
 ```
 
 ![Gambar]()
@@ -298,13 +297,13 @@ $ git status
 
 ### Kode : Melihat Periubahan File
 
-```
-$ git diff
+```bash
+git diff
 ```
 
 ![Gamabr]()
 
-### Tugas
+### Tugas (1)
 
 - Commit perubahan file3.txt ke Repository
 - Ubah file1.txt dan file2.txt secara bersamaan, lalu commit semuannya ke Repository
@@ -317,16 +316,16 @@ $ git diff
 - Secara otomati Git akan mendeteksi file yang hilang
 - Sama seperti menambah dan menghapus, jika ingin simpan secara permanan di Repository, kita harus menambahkan operasi terserbut ke Staging index, lalu commit ke Repository
 
-### Kode : Git Status
+### Kode : Git Status (2)
 
 ![Gambar]()
 
 ### Kode : Git Commit
 
-```
-$ git add file3.txt
-$ git status
-$ git commit -m "menghapus file3.txt"
+```bash
+git add file3.txt
+git status
+git commit -m "menghapus file3.txt"
 ```
 
 ![Gambar]()
@@ -338,11 +337,9 @@ $ git commit -m "menghapus file3.txt"
 - Jika kita menambahkan fiel di Working Directory, lalu misal kita ingin membatalkan perubahannya
 - Caranya cukup sederhana, kita hanya perlu menghapus file terseut, atau bisa menggunakan perintah : `git clean -f`
 
-
 ### Membatalkan Perubahan File
 
 - Jika kita ingin membatalkan perubahan file yang telah kita lakukan, kita bisa menggunakan perintah : `git restore namafile`
-
 
 ### Membatalkan Penghapusan File
 
@@ -350,9 +347,9 @@ $ git commit -m "menghapus file3.txt"
 
 ### Kode Git Restore
 
-```
-$ git status
-$ git restore file1.txt
+```bash
+git status
+git restore file1.txt
 ```
 
 ![Gambar]()
@@ -365,10 +362,10 @@ $ git restore file1.txt
 
 ### Kode : Git Restore ke Working Directory
 
-```
-$ git status
-$ git restore --staged file1.txt
-$ git status
+```bash
+git status
+git restore --staged file1.txt
+git status
 ```
 
 ![Gambar]()
@@ -384,14 +381,14 @@ $ git status
 
 ## Commit Log
 
- - Git adalah distributed version control, artinya walaupun kita Repository di local komputer kita, semua riwayat perubahan disimpan di komputer kita
- - Kekurangan menjadi makin lama Repository akan semakin besar ukurannya, namun keuntungannya, kita bisa melihat semua riwayat commit, atau disebut Commit Log
- - Untuk melihat Commit Log, kita bisa gunakan perintah : `git log`
+- Git adalah distributed version control, artinya walaupun kita Repository di local komputer kita, semua riwayat perubahan disimpan di komputer kita
+- Kekurangan menjadi makin lama Repository akan semakin besar ukurannya, namun keuntungannya, kita bisa melihat semua riwayat commit, atau disebut Commit Log
+- Untuk melihat Commit Log, kita bisa gunakan perintah : `git log`
 
 ### Kode : Git Log
 
-```
-$ git log
+```bash
+git log
 ```
 
 ![Gambar]()
@@ -403,8 +400,8 @@ $ git log
 
 ### Kode : Git Log Oneline
 
-```
-$ gti log --oneline
+```bash
+gti log --oneline
 ```
 
 ![Gambar]()
@@ -416,8 +413,8 @@ $ gti log --oneline
 
 ### Kode : Git Log Graph
 
-```
-$ git log --oneline --graph
+```bash
+git log --oneline --graph
 ```
 
 ![Gambar]()
@@ -433,8 +430,8 @@ $ git log --oneline --graph
 
 ### Kode : Detail Commit
 
-```
-$ git show ad2bc
+```bash
+git show ad2bc
 ```
 
 ![Gambar]()
@@ -451,8 +448,8 @@ $ git show ad2bc
 
 ### Kode : Git Diff
 
-```
-$ git diff 7453f5e HEAD
+```bash
+git diff 7453f5e HEAD
 ```
 
 ![Gambar]()
@@ -476,18 +473,18 @@ $ git diff 7453f5e HEAD
 
 ## Kode : Git Status
 
-```
-$ git status
+```bash
+git status
 ```
 
 ![Gambar]()
 
 ### Kode : Git Status di Staging Index
 
-```
-$ git add file2.txt
-$ git add file_2.txt
-$ git status
+```bash
+git add file2.txt
+git add file_2.txt
+git status
 ```
 
 ![Gaambar]()
@@ -518,10 +515,11 @@ $ git status
 
 ### Kode : Git Reset Soft
 
+```bash
+git reset --soft ae4158c
+git status
 ```
-$ git reset --soft ae4158c
-$ git status
-```
+
 ![Gambar]()
 
 ### Rewrite Riwayat Commit
@@ -532,18 +530,20 @@ $ git status
 
 ### Kode : Git Reset Mixed
 
+```bash
+git reset --mixed ae4158c
+git status
 ```
-$ git reset --mixed ae4158c
-$ git status
-```
+
 ![Gambar]()
 
 ### Kode : Git Reset Hard
 
+```bash
+git reset --hard ae4158c
+git status
 ```
-$ git reset --hard ae4158c
-$ git status
-```
+
 ![Gambar]()
 
 ## #15 Amend Commit
@@ -564,10 +564,11 @@ $ git status
 
 ### Kode : Git Commit Amend
 
+```bash
+git add file3.txt
+git commit --amend -m "Add file3.txt"
 ```
-$ git add file3.txt
-$ git commit --amend -m "Add file3.txt"
-```
+
 ![Gambar]()
 
 ## #16 Versi Sebelumnya
@@ -587,9 +588,9 @@ Misal kita ingi melihat file1.txt sebelum terjadi perubahan di commit 1b5f564, m
 
 ### Kode : Git Checkout
 
-```
-$ git checkout 2114ac3 -- file1.txt
-$ git status
+```bash
+git checkout 2114ac3 -- file1.txt
+git status
 ```
 
 ![Gambar]()
@@ -612,16 +613,16 @@ $ git status
 
 ### Kode : Git Checkout
 
-```
-$ git checkout 7265dca
+```bash
+git checkout 7265dca
 ```
 
 ![Gambar]()
 
 ### Kode : Kembali Ke Commit Terakhir
 
-```
-$ git checkout master
+```bash
+git checkout master
 ```
 
 ![Gambar]()
@@ -642,8 +643,8 @@ Misal kita akan revert commit melakukan rename dari file2.txt menjadi file_2.txt
 
 ### Kode : Git Revert
 
-```
-$ git revert b34dc9a
+```bash
+git revert b34dc9a
 ```
 
 ![Gambar]()
@@ -663,7 +664,7 @@ $ git revert b34dc9a
 
 ### Kode : File .gitignore
 
-```
+```bash
 > .gitignore
 
 # Ignore folder log
@@ -682,10 +683,9 @@ ignore.txt
 
 ![Gambar]()
 
-
 ## #19 Blame
 
-### Blame 
+### Blame
 
 - Saat membuat kode program kadang kta ingin tahu, siapa yang menambahkan baris kode program tersebut, dan apa saja yang ditambahkan
 - Git memiliki fitur yang bernama blame, ini digunakan untuk mencari tahu, siapa yang menambah perubahan pada file dan juga mengetahui commit nya
@@ -693,8 +693,8 @@ ignore.txt
 
 ### Kode : Git Blame
 
-```
-$ git blame file1.txt
+```bash
+git blame file1.txt
 ```
 
 ![Gambar]()
@@ -710,10 +710,10 @@ $ git blame file1.txt
 
 ### Kode : Menambahkan Alias
 
-```
-$ git config --global alias.ko commit
-$ git config --global alias.komit commit
-$ git config --global alias.logone "log --oneline"
+```bash
+git config --global alias.ko commit
+git config --global alias.komit commit
+git config --global alias.logone "log --oneline"
 ```
 
 ## #21 Materi Selanjutnya
