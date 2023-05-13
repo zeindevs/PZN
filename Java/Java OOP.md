@@ -167,7 +167,7 @@ class Person {
 }
 ```
 
-### Kode : Menggunakan Constructor
+### Kode : Menggunakan Constructor (1)
 
 ```java
 var person = new Person("Eko", "Subang");
@@ -201,7 +201,7 @@ class Person {
 }
 ```
 
-### Kode : Menggunakan Constructor
+### Kode : Menggunakan Constructor (2)
 
 ```java
 var person1 = new Person("Eko", "Subang");
@@ -455,7 +455,7 @@ System.out.println(manager.toString());
 - Dalam OOP, Polymorphism adalah kemampuan sebuah object berubah bentuk menjadi bentuk lain
 - Polymorphism erat hubungannya dengan Inheritance
 
-### Kode : Inheritance
+### Kode : Inheritance (1)
 
 ```java
 class Employee {
@@ -1375,7 +1375,7 @@ Level[] values = Level.values();
 ### Kode : Membuat Class Exception
 
 ```java
-public calss ValidationException extends Throwable {
+public class ValidationException extends Throwable {
 
 	private String message;
 
@@ -1751,7 +1751,7 @@ public static void validateRequest(CreateUserRequest request) throws IllegalAcce
 }
 ```
 
-### Perlu Diperhatikan
+### Perlu Diperhatikan (1)
 
 - Reflection adalah materi yang sangat panjang
 - Oleh karena itu materi Java Reflection akan dibuatkan course terpisah
