@@ -25,7 +25,7 @@
 - Android awalnya dikembangkan oleh Android Inc. Andoid Inc didirikan oleh Andy Rubin pada tahun 2003
 - Google mengakuisisi Android Inc pada tahun 2005, dan menjadikan anak perusahaan sepenuhnya yang dimiliki oleh Google
 - Sistem operasi Android dirilis secara resmi pada tahun 2007, dan ponsel Android pertama mulai dijual pada tahun 2008
-- https://www.android.com/?hl=id
+- <https://www.android.com/?hl=id>
 
 ### Versi Android
 
@@ -43,21 +43,21 @@
 - Namun bukan berarti semua fitur pemrograman Java bisa digunakan
 - Android hanya menggunakan bahasa pemrograman Java, dan sedikit fitur yang terdapat di Java
 - Oleh karena itu, kita perlu belajar lagi standard library atau API yang terdapat di Android, karena walaupun menggunakan bahasa yang sama, namun teknologinya berbeda.
-- https://developer.android.com/?hl=id
+- <https://developer.android.com/?hl=id>
 
 ### Adopsi Pemrograman Kotlin
 
 - Pada tahun 2017, Google mengumumkan bahwa Kotlin menjadi bahasa pemrograman utama yang sekarang digunakan untuk pengembangkan aplikasi Android, menggantikan Java
 - Kotlin adalah bahasa pemrograman yang dibuat oleh perusahaan JetBrains yang pertama kali dirilis sekitar tahun 2011
 - Saat ini, Kotlin semakin populer karena Kotlin bisa bekerja dengan baik dengan ekosistem Java, sehingga tidak hanya programmer Android, programmer Backend Java pun sekarang banyak yang menggunakan Kotlin
-- https://developer.android.com/kotlin?hl=id
+- <https://developer.android.com/kotlin?hl=id>
 
 ### Android Studio
 
 - Android Studio adalah Integrated Developement Environment (atau text editor canggih) yang disediakan oleh Google untuk membuat aplikasi Android
 - Android Studio sendiri dibangun di atas JetBrains Intellij IDEA, sehingga akan sangat familliar untuk programmer yang sebelumnya sudah menggunakan JetBrains IDE
 - Android Studio bisa didapatkan dengan gratis
-- https://developer.android.com/studio?hl=id
+- <https://developer.android.com/studio?hl=id>
 
 ## #2 Android SDK
 
@@ -86,7 +86,7 @@
 ### Android Release Note
 
 - Untuk melihat daftar fitur apa saja yang terdapat di versi Android tertentu, kita bisa melihat detailnya di release note Android nya
-- https://developer.android.com/about/version?hl=id
+- <https://developer.android.com/about/version?hl=id>
 
 ## #4 Membuat Project
 
@@ -135,7 +135,7 @@
 ### Windows
 
 - Khusus jika kita menggunakan WIndows, kita juga perlu menginstall Driver agar smartphone Android kita bisa terdeteksi
-- https://developer.android.com/studio/run/oem-usb?hl=id
+- <https://developer.android.com/studio/run/oem-usb?hl=id>
 
 ## #9 Build Configuration
 
@@ -160,7 +160,7 @@
 
 ### Kode : Build Configuration
 
-```
+```gradle
 android {
     compileSdk 32
 
@@ -187,7 +187,7 @@ android {
 
 - Setiap project Android, wajib memiliki Manifest File yaitu AndroidManifest.xml
 - Manifest File beriskan informasi dari aplikasi yang kita buat, seperti informasi Activity, Permission, Intent, Provider, Receiver, Service, dan lain-lain
-- https://developer.android.com/guide/topics/manifest/manifest-intro?hl=id
+- <https://developer.android.com/guide/topics/manifest/manifest-intro?hl=id>
 
 ### Kode : Contoh Manifest File
 
@@ -229,14 +229,14 @@ android {
 - Untuk membuat Activity, kita perlu membuat class turunan dari Activity
 - Saat kita membuat project Android, secara otomatis akan ada sebuah MainActivity yang merupakan class turunan dari AppCompactActivity
 - AppCompactActivity merupakan turunan dari class Activity yang memungkinkan kita menggunakan fitur baru Androud di versi Android lama, oleh karena itu direkomendasikan menggunakan class AppCompactActivity
-- https://developer.android.com/reference/android/app/Activity
+- <https://developer.android.com/reference/android/app/Activity>
 
 ### Mendaftarkan Activity
 
 - Untuk memberitahu kepada Android, bahwa kita membuat Activity, kita harus mendaftarkanya di Manifest File
 - Selain itu, kita perlu menambahkan intent untuk menambahkan informasi seperti misalnya, menandai sebuah Activity ini adalah Main Activity, dan menandai bahwa Activity ini harus dijalankan ketika aplikasi Android diluncurkan/dibuka (LAUNCH)
 
-### Kode : Contoh Manifest File
+### Kode : Contoh Manifest File (1)
 
 ```xml
 <activity
@@ -311,7 +311,7 @@ class MainActivity : AppCompactActivity() {
 - Semua komponen UI di Android adalah turunan View
 - Ada banyak sekali komponen yang terdapat di Android, dan akan dibahas di kelas terpisah
 - Bahkan Layout sendiri adalah turunan dari class View
-- https://developer.android.com/reference/android/view/View
+- <https://developer.android.com/reference/android/view/View>
 
 ### Menambah View
 
@@ -468,7 +468,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Saat kita membuat kode program Kotlin atau Java, kita sering melakukan println atau menulis tulisan ke console
 - Di Android, kita juga bisa melakukan hal tersebut dengan menggunakan class Log
 - Lebih tepatnya Log ini digunakan untuk melakukan logging di Android
-- https://developer.android.com/reference/android/util/Log
+- <https://developer.android.com/reference/android/util/Log>
 
 ### Log Level
 
@@ -505,7 +505,7 @@ sayHelloButton.setOnClickListener {
 - Pertanyaannya, bagaimana untuk mengambil data resource nya?
 - Untuk mengambil data resource nya, kita bisa menggunakan class Resources
 
-- https://developer.android.com/reference/android/content/res/Resources
+- <https://developer.android.com/reference/android/content/res/Resources>
 
 ### Jenis-Jenis Resource
 
@@ -606,7 +606,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Artinya $name tersebut bisa berubah-berubah
 - Untung nya String resource mendukung hal tersebut, kita bisa menggunakan formatting string pada string resource, caranya cukup gunakan format `%index$s` untuk parameter string, atau `%index$d` untuk angka desimal
 
-### Kode : String Resource
+### Kode : String Resource (1)
 
 ```xml
 <resources>
@@ -676,7 +676,7 @@ sayHelloButton.setOnClickListener {
 
 - Selain String Resource dan String Array Resource, di dalam Value Resource, kita bisa menambahkan banyak jenis Resource Lainnya
 - Misalnya Integer, Integer Array, Boolean, Color dan lain-lain
-- https://developer.android.com/guide/topics/resources/more-resources?hl=id
+- <https://developer.android.com/guide/topics/resources/more-resources?hl=id>
 
 ### Kode : Value Resource Lainnya
 
@@ -717,7 +717,7 @@ sayHelloButton.setOnClickListener {
 - Layout juga bisa menambahkan layout lain, dengan menggunakan tag `<include>`
 - Setiap layout harus memiliki satu root element, jika misal kita ingin memiliki root element, misal untuk digunakan sebagai include di layout lain, kita bisa gunakan root tag `<merge>`
 
-### Kode : Layout
+### Kode : Layout (1)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -767,9 +767,9 @@ sayHelloButton.setOnClickListener {
 ## #23 Color State List Resource
 
 - Color State List Resource merupakan object yang bisa kita buat dalam XML yang merupakan representasi Color (Warna), tapi tidak satu Color, melainkan bisa bebrapa Color tergantung state dari View nya
-- Color State List Resource di representasikan dalam class ColorStateList https://developer.android.com/reference/android/content/res/ColorStateList
+- Color State List Resource di representasikan dalam class ColorStateList <https://developer.android.com/reference/android/content/res/ColorStateList>
 - Contoh State List Resource juga bisa menggunakan Color Resource yang sudah kita buat di Values Resource dengan menggunakan @color/namaResource
-- https://developer.android.com/guide/topics/resources/color-list-resource?hl=id
+- <https://developer.android.com/guide/topics/resources/color-list-resource?hl=id>
 
 ### Kode : Color State List Resource
 
@@ -798,9 +798,9 @@ sayHelloButton.setOnClickListener {
 
 - Drawable Resource adalah jenis resource dengan konsep graphics yang bisa digambar di layar
 - Ada banyak jenis Drawable, seperti Bitmap File (file gambar), Nine Patch File, Layer List, State List dan lain-lain
-- https://developer.android.com/guide/topics/resources/drawable-resource?hl=id
+- <https://developer.android.com/guide/topics/resources/drawable-resource?hl=id>
 - Drawable direpresentasikan dalam class Drawable dan untuk mendapatkannya, kita bisa gunakan function `getDrawable(resourceId)` pada class Resources
-- https://developer.android.com/reference/android/graphics/drawable/Drawable
+- <https://developer.android.com/reference/android/graphics/drawable/Drawable>
 
 ### Menambah Drawable
 
@@ -866,7 +866,7 @@ sayHelloButton.setOnClickListener {
 - Kadang kita ingi menambahkan resource di Aplikasi Android kita, tapi bukan resource yang di manage oleh Android, misal kita ingin menambahkan file JSON atau TXT misalnya
 - Untuk kasus seperti ini, kita bisa menggunakan AssetManager
 - AssetManager adalh class yang bisa kita gunakan untuk mengakses resource secara manual
-- https://developer.android.com/reference/context/res/AssetManager
+- <https://developer.android.com/reference/context/res/AssetManager>
 - AssetManager akan mengambil resource pada directory assets, sehingga kita perlu memnbuatnya terlebih dahulu
 - Dan untuk mendapatkan AssetManager, kita bisa gunakan function `getAssets()` di Context / Activity
 
@@ -912,7 +912,7 @@ sayHelloButton.setOnClickListener {
 
 - Dalam Android, terdapat object bernama Context. Context berisi global informasi tentang environment aplikasi. Context merupakan Abstract Class yang implementasikanya sudah dilakukan oleh Android
 - Context memungkinkan kita mengakses resource, membuka activity, menerima intent, broadcasting, dan lain-lain
-- https://developer.android.com/reference/android/content/Context
+- <https://developer.android.com/reference/android/content/Context>
 
 ### Jenis Context
 
@@ -933,7 +933,7 @@ sayHelloButton.setOnClickListener {
 - Application adalah base class untuk maintain global applicatin state
 - Secara default Androud akan membuat object Application sendiri, namun kita juga bis membuat class Application sendiri, asal harus turunan dari class Application
 - Dan untuk mendaftarkan class Application yang kita buat, kita harus daftarkan di Manifest File dengan tag `"android:name"`
-- https://developer.android.com/reference/android/app/Application
+- <https://developer.android.com/reference/android/app/Application>
 - Untuk mendapatkan object Application, kita bisa menggunakan function `getApplication()` di Activity
 
 ### Kode : Application
@@ -1008,7 +1008,7 @@ class MyApplication : Application() {
 
 - Namun jika misal fitur yang kita butuhkan hanya optional, misal contohnya fingerprint ada fitur yang boleh ada atau tidak, kita bisa cukup melakukan pengecekan di kode program kita saja
 - Kita bisa menggunakan class PackageManager untuk mengeceknya
-- https://developer.android.com/reference/content/pm/PackageManager
+- <https://developer.android.com/reference/content/pm/PackageManager>
 - Dan untk mendapatkan object PackageManager, kita bisa gunakan function `getPackageManager()`
 
 ### Kode : Package Manager
@@ -1068,7 +1068,7 @@ if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) {
 - Oleh karena itu, di Android, kita jarang menggunakan ukuran px, melainkan ukuran dp (density-independent pixels)
 - Ukuran dp bisa secara otomatis membesar sesuai dengan screen density
 - Jika kita ingin menghitung berapa pixel dari dp, kita bisa gunakan rumus : `px = dp * (dpi / 160)`
-- https://developer.android.com/training/multiscreen/screendensities
+- <https://developer.android.com/training/multiscreen/screendensities>
   | Density qualifer | Description |
   | ---------------- | ----------- |
   | ldpi | Resources for low-density (ldpi) screens (~120dpi). |
@@ -1163,13 +1163,13 @@ private fun printHello(name: String) {
 - JUnit hanya digunakan untuk Library Unit Test, untuk melakukan UI Test, Android menggunakan library bernama Espresso
 - Dengan Espresso, kita bisa membuat UI Test dengan mudah
 - Ada banyak sekali fitur Espresso, dan kita akan belajar secara bertahap di roadmak kelas Android ini
-- https://developer.android.com/training/testing/espresso
+- <https://developer.android.com/training/testing/espresso>
 
 ### Activity Scenario
 
 - Saat kita melakukan instrumentation test, biasanya kita akan melakukan UI Test, dan untuk menampilkan UI, kita biasanya butuh Activity
 - Dalam Instrumentation Test, kita bisa menggunakan ActivityScenario untuk menjalankan sebuah Activity
-- https://developer.android.com/reference/android/test/core/app/ActivityScenario
+- <https://developer.android.com/reference/android/test/core/app/ActivityScenario>
 
 ### Kode : Activity Scenario
 
@@ -1195,7 +1195,7 @@ class MainActivityTest {
 
 - Menjalankan Activity secara manual menggunakan Activity Scenario tidak direkomendasikan ketika kita membuat Instrumentation Test
 - Kita bisa memanfaatkan ActivityScenarioRule yang bisa di integrasikan dengan JUnit Rule, yang secara otomatis bisa manjalankan Activity ketika unit test mulai dan menghentikan Activity ketika unit test selesai
-- https://developer.android.com/reference/androidx/test/ext/junit/rules/ActivityScenarioRule
+- <https://developer.android.com/reference/androidx/test/ext/junit/rules/ActivityScenarioRule>
 
 ### Kode : Activity Scenario Rule
 
@@ -1213,7 +1213,7 @@ class MainActivityTest {
 - Espresso berisikan banyak class yang bisa digunakan untuk mempermudah kita melakukan Instrumentation Test
 - Karena terlalu banyak, jadi kita akan membahasnya sambil kelasnya berjalan, dan sambil kita praktekan
 - Package Espresso ada di androidx.test.espresso
-- https://developer.android.com/reference/androidx/test/espresso/package-summary?hl=en
+- <https://developer.android.com/reference/androidx/test/espresso/package-summary?hl=en>
 
 ### Kode : Instrumentation Test
 
