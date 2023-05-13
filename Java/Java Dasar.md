@@ -87,17 +87,17 @@
 ### OpenJDK
 
 - OpenJDK adalah salah satu implemntasi Java Development Kit yang opensource dan gratis
-- https://openjdk.java.net/
+- <https://openjdk.java.net/>
 
 ### OpenJDK vs yang lain
 
-- Oracle JDK : https://www.oracle.com/java/technologies/javase-downloads.html
-- Amazon Corretto : https://aws.amazon.com/id/corretto/
-- Zulu : https://www.azul.com/downloads/zulu-community/
+- Oracle JDK : <https://www.oracle.com/java/technologies/javase-downloads.html>
+- Amazon Corretto : <https://aws.amazon.com/id/corretto/>
+- Zulu : <https://www.azul.com/downloads/zulu-community/>
 
 ### Download OpenJDK
 
-- https://openjdk.java.net/
+- <https://openjdk.java.net/>
 
 ### Setting PATH
 
@@ -118,10 +118,10 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 IDE untuk Java
 
-- Intelli JDEA Ultimate / Community : https://www.jetbrains.com/idea/
-- Eclipse : https://www.eclipse.org/downloads/packages/
-- NetBeans : https://netbeans.apache.org/
-- JDeveloper : https://www.oracle.com/application-development/technologies/jdeveloper.html
+- Intelli JDEA Ultimate / Community : <https://www.jetbrains.com/idea/>
+- Eclipse : <https://www.eclipse.org/downloads/packages/>
+- NetBeans : <https://netbeans.apache.org/>
+- JDeveloper : <https://www.oracle.com/application-development/technologies/jdeveloper.html>
 
 ## #2 Program Hello World
 
@@ -142,9 +142,9 @@ public class HelloWorld {
 ### Kompilasi Program Java
 
 ```bash
-$ javac HelloWorld.java
+> javac HelloWorld.java
 
-$ java HelloWorld
+> java HelloWorld
 ```
 
 ## #3 Tipe Data Number
@@ -590,7 +590,7 @@ System.out.println(value1 != value2);
 | false   | \|\|     | true    | false |
 | false   | \|\|     | false   | false |
 
-### Operasi !
+### Operasi `!`
 
 | Operator | Nilai 2 | Hasil |
 | -------- | ------- | ----- |
