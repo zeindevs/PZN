@@ -5,14 +5,12 @@
 - Pengenalan Version Control
 - Pengenalan Git
 - Repository
-- Workflow
 - The Three Tree
 - Working Directory
 - Staging Index
-- Hash
 - Commit
 - Reset Commit
-- Dain lain-lain
+- Dan lain-lain
 
 ## #1 Pengenalan Version Control
 
@@ -44,7 +42,7 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 
 ### Diagram Local Version Control
 
-![Gambar]()
+![Diagram Local Version Control](./images/git-dasar-1.jpg)
 
 ### Centralized Version Control
 
@@ -59,7 +57,7 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 
 ### Diagram Centralized Version Control
 
-![Gambar]()
+![Diagram Centralized Version Control](./images/git-dasar-2.jpg)
 
 ### Distributed Version Control
 
@@ -71,7 +69,7 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 
 ### Diagram Distributed Version Control
 
-![Gambar]()
+![Diagram Distributed Version Control](./images/git-dasar-3.jpg)
 
 ## #2 Pengenalan Git
 
@@ -103,10 +101,14 @@ Secara garis besar, version control dibagi menjadi 3 jenis
 - Git merupakan aplikasi berbasis terminal / command line, oleh karena itu, untuk menggunakan Git, kita perlu membuat terminal / command line
 - Untuk mengecek versi Git yang terinstall do local computer kita, kita bisa gunakan perintah: `git --version`
 
+![Memastikan Git Berjalan](./images/git-dasar-4.jpg)
+
 ### Tool Pembantu
 
 - Visual Studio Code : <https://code.visualstudio.com/>
 - Install di PATH
+
+![Tool Pembantu](./images/git-dasar-5.jpg)
 
 ## #3 Configuration
 
@@ -185,7 +187,7 @@ git status
 
 ### Diagram Three Tree
 
-![Gambar]()
+![Diagram Three Tree](./images/git-dasar-6.jpg)
 
 ### Workflow
 
@@ -196,11 +198,11 @@ git status
 
 ### Diagram Workflow (1)
 
-![Gambar]()
+![Diagram Workflow 1](./images/git-dasar-7.jpg)
 
 ### Diagram Workflow (2)
 
-![Gambar]()
+![Diagram Workflow 2](./images/git-dasar-8.jpg)
 
 ## #6 Hash
 
@@ -222,7 +224,7 @@ git status
 
 ### Diagram Snapshot
 
-![Gambar]()
+![Diagram Snapshot](./images/git-dasar-9.jpg)
 
 ### Perhitungan Hash
 
@@ -238,7 +240,7 @@ git status
 
 ### Diagram HEAD
 
-![Gamar]()
+![Diagram HEAD](./images/git-dasar-10.jpg)
 
 ## #7 Menambah File
 
@@ -255,6 +257,8 @@ git status
 git status
 ```
 
+![Untracked Files](./images/git-dasar-11.jpg)
+
 ### Kode : Memindahkan ke Staging Index
 
 ```bash
@@ -262,12 +266,16 @@ git add file.txt
 git status
 ```
 
+![Memindahkan ke Staging Index](./images/git-dasar-12.jpg)
+
 ### Kode : Commit ke Repository
 
 ```bash
 git commit -m "Menambah file.txt"
 git status
 ```
+
+![Commit ke Repository](./images/git-dasar-13.jpg)
 
 ### Tugas
 
@@ -288,7 +296,7 @@ git status
 git status
 ```
 
-![Gambar]()
+![Git Status](./images/git-dasar-14.jpg)
 
 ### Melihat Perubahan File
 
@@ -301,7 +309,7 @@ git status
 git diff
 ```
 
-![Gamabr]()
+![Melihat Periubahan File](./images/git-dasar-15.jpg)
 
 ### Tugas (1)
 
@@ -318,7 +326,7 @@ git diff
 
 ### Kode : Git Status (2)
 
-![Gambar]()
+![Git Status](./images/git-dasar-16.jpg)
 
 ### Kode : Git Commit
 
@@ -328,7 +336,7 @@ git status
 git commit -m "menghapus file3.txt"
 ```
 
-![Gambar]()
+![Git Commit](./images/git-dasar-17.jpg)
 
 ## #10 Membatalkan Perubahan
 
@@ -341,24 +349,43 @@ git commit -m "menghapus file3.txt"
 
 - Jika kita ingin membatalkan perubahan file yang telah kita lakukan, kita bisa menggunakan perintah : `git restore namafile`
 
-### Membatalkan Penghapusan File
-
-- Penghapusan file sebenarnya sama dengan perubahan file, jadi jika kita ingin membatalkan penghapusan file, kita bisa gunakan perintah yang sama dengan membatalkan perubahan file : `git restore namafile`
-
-### Kode Git Restore
+### Kode : Git Restore
 
 ```bash
 git status
 git restore file1.txt
 ```
 
-![Gambar]()
+![Git Restore](./images/git-dasar-18.jpg)
+
+### Membatalkan Penghapusan File
+
+- Penghapusan file sebenarnya sama dengan perubahan file, jadi jika kita ingin membatalkan penghapusan file, kita bisa gunakan perintah yang sama dengan membatalkan perubahan file : `git restore namafile`
+
+### Kode : Git Restore
+
+```bash
+git status
+git restore file1.txt
+```
+
+![Git Restore](./images/git-dasar-19.jpg)
 
 ### Membatalkan dari Staging Index
 
 - Perintah fit restore hanya bisa dilakukan untuk membatalkan perubahan yang terjadi Working Directory
 - Artinya jika perubahan terlanjur kita masukkan ke Staging Index, maka untuk membatalkannya tidak bisa kita lakukan secara langsung dari Staging Index
 - Kita perlu mengembalikan posisi dari Staging Index ke Working Directory terlebih dahulu, caranya kita bisa gunakan perintah : `git restore --staged namefile`
+
+### Kode : Gi Restore di Staging Index
+
+```bash
+git status
+git restore --staged file1.txt
+git status
+```
+
+![Gi Restore di Staging Index](./images/git-dasar-20.jpg)
 
 ### Kode : Git Restore ke Working Directory
 
@@ -368,7 +395,7 @@ git restore --staged file1.txt
 git status
 ```
 
-![Gambar]()
+![Git Restore ke Working Directory](./images/git-dasar-21.jpg)
 
 ### Membatalkan Yang Sudah di Commit
 
@@ -391,7 +418,9 @@ git status
 git log
 ```
 
-![Gambar]()
+![Git Log](./images/git-dasar-22.jpg)
+
+![Git Log](./images/git-dasar-23.jpg)
 
 ### Log Sederhana
 
@@ -404,7 +433,7 @@ git log
 gti log --oneline
 ```
 
-![Gambar]()
+![Git Log Oneline](./images/git-dasar-24.jpg)
 
 ### Graph
 
@@ -417,11 +446,11 @@ gti log --oneline
 git log --oneline --graph
 ```
 
-![Gambar]()
+![Git Log Graph](./images/git-dasar-25.jpg)
 
 ### Kode : Contoh Git Graph Kompleks
 
-![Gambar]()
+![Contoh Git Graph Kompleks](./images/git-dasar-26.jpg)
 
 ### Melihat Detail Commit
 
@@ -434,7 +463,9 @@ git log --oneline --graph
 git show ad2bc
 ```
 
-![Gambar]()
+![Detail Commit](./images/git-dasar-27.jpg)
+
+![Detail Commit](./images/git-dasar-28.jpg)
 
 ## #12 Compare Commit
 
@@ -452,7 +483,7 @@ git show ad2bc
 git diff 7453f5e HEAD
 ```
 
-![Gambar]()
+![Git Diff](./images/git-dasar-29.jpg)
 
 ### Difftool
 
@@ -461,7 +492,7 @@ git diff 7453f5e HEAD
 
 ### Difftool Visual Studio Code
 
-![Gambar]()
+![Difftool Visual Studio Code](./images/git-dasar-30.jpg)
 
 ## #14 Rename File
 
@@ -477,7 +508,7 @@ git diff 7453f5e HEAD
 git status
 ```
 
-![Gambar]()
+![Git Status](./images/git-dasar-31.jpg)
 
 ### Kode : Git Status di Staging Index
 
@@ -487,7 +518,7 @@ git add file_2.txt
 git status
 ```
 
-![Gaambar]()
+![Git Status di Staging Index](./images/git-dasar-32.jpg)
 
 ## #14 Reset Commit
 
@@ -501,7 +532,7 @@ git status
 
 ### Diagram Git Reset
 
-![Gambar]()
+![Diagram Git Reset](./images/git-dasar-33.jpg)
 
 ### Mmode Git Reset
 
@@ -511,7 +542,7 @@ git status
 
 ### Kode : Git Log
 
-![Gambar]()
+![Git Log](./images/git-dasar-34.jpg)
 
 ### Kode : Git Reset Soft
 
@@ -520,7 +551,7 @@ git reset --soft ae4158c
 git status
 ```
 
-![Gambar]()
+![Git Reset Soft](./images/git-dasar-35.jpg)
 
 ### Rewrite Riwayat Commit
 
@@ -535,7 +566,7 @@ git reset --mixed ae4158c
 git status
 ```
 
-![Gambar]()
+![Git Reset Mixed](./images/git-dasar-36.jpg)
 
 ### Kode : Git Reset Hard
 
@@ -544,7 +575,7 @@ git reset --hard ae4158c
 git status
 ```
 
-![Gambar]()
+![Git Reset Hard](./images/git-dasar-37.jpg)
 
 ## #15 Amend Commit
 
@@ -569,7 +600,7 @@ git add file3.txt
 git commit --amend -m "Add file3.txt"
 ```
 
-![Gambar]()
+![Git Commit Amend](./images/git-dasar-38.jpg)
 
 ## #16 Versi Sebelumnya
 
@@ -584,7 +615,7 @@ git commit --amend -m "Add file3.txt"
 
 Misal kita ingi melihat file1.txt sebelum terjadi perubahan di commit 1b5f564, maka kita bisa gunakan perintah : `git checkout 2114ac3 -- file1.txt`
 
-![Gambar]()
+![Git Status](./images/git-dasar-39.jpg)
 
 ### Kode : Git Checkout
 
@@ -593,7 +624,7 @@ git checkout 2114ac3 -- file1.txt
 git status
 ```
 
-![Gambar]()
+![Git Checkout](./images/git-dasar-40.jpg)
 
 ## #17 Snapshot Sebelumnya
 
@@ -609,7 +640,7 @@ git status
 - Materi branching akan dibahas pada course terpisah, namun secara default saat kita membuat Git Repository, maka secara otomatis Git akan membuat branch
 - Untuk melihat nama branch saat ini, kita bisa gunakan perintah : `git branch --show-current`
 
-![Gambar]()
+![Git Branch](./images/git-dasar-41.jpg)
 
 ### Kode : Git Checkout
 
@@ -617,7 +648,7 @@ git status
 git checkout 7265dca
 ```
 
-![Gambar]()
+![Git Checkout](./images/git-dasar-42.jpg)
 
 ### Kode : Kembali Ke Commit Terakhir
 
@@ -625,7 +656,7 @@ git checkout 7265dca
 git checkout master
 ```
 
-![Gambar]()
+![Kembali Ke Commit Terakhir](./images/git-dasar-43.jpg)
 
 ## #18 Revert Commit
 
@@ -639,7 +670,7 @@ git checkout master
 
 Misal kita akan revert commit melakukan rename dari file2.txt menjadi file_2.txt
 
-![Gambar]()
+![Git Status](./images/git-dasar-44.jpg)
 
 ### Kode : Git Revert
 
@@ -647,11 +678,11 @@ Misal kita akan revert commit melakukan rename dari file2.txt menjadi file_2.txt
 git revert b34dc9a
 ```
 
-![Gambar]()
+![Git Revert](./images/git-dasar-45.jpg)
 
 ### Kode : Git Log Setelah Revert
 
-![Gambar]()
+![Git Log Setelah Revert](./images/git-dasar-46.jpg)
 
 ## #18 Ignore
 
@@ -677,11 +708,11 @@ log/
 ignore.txt
 ```
 
-![Gambar]()
+![File .gitignore](./images/git-dasar-47.jpg)
 
 ### Kode : Git Status
 
-![Gambar]()
+![Git Status](./images/git-dasar-48.jpg)
 
 ## #19 Blame
 
@@ -697,7 +728,7 @@ ignore.txt
 git blame file1.txt
 ```
 
-![Gambar]()
+![Git Blame](./images/git-dasar-49.jpg)
 
 ## #20 Alias
 
@@ -715,6 +746,12 @@ git config --global alias.ko commit
 git config --global alias.komit commit
 git config --global alias.logone "log --oneline"
 ```
+
+![Menambahkan Alias](./images/git-dasar-50.jpg)
+
+### Kode : Menggunakan Alias
+
+![Menggunakan Alias](./images/git-dasar-51.jpg)
 
 ## #21 Materi Selanjutnya
 
