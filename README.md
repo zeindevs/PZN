@@ -14,7 +14,7 @@ Programmer Zaman Now Notes
 - [ ] Dart
 - [ ] Node.js
 - [ ] PHP
-- [ ] MySQL
+- [x] MySQL
 - [ ] MongoDB
 - [ ] RESTfull API
 - [ ] Docker
