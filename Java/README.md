@@ -11,7 +11,7 @@
 - [x] [Apache Maven](Apache%20Maven.md)
 - [x] [Java Unit Test](Java%20Unit%20Test.md)
 - [x] [Java Stream](Java%20Stream.md)
-- [x] [Java Data & Time API](Java%20Data%20%26%20Time%20API.md)
+- [x] [Java Date & Time API](Java%20Date%20%26%20Time%20API.md)
 - [ ] Java Internationalization
 - [ ] Java Database
 - [ ] Java Thread
