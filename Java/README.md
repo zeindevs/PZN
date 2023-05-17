@@ -12,7 +12,7 @@
 - [x] [Java Unit Test](Java%20Unit%20Test.md)
 - [x] [Java Stream](Java%20Stream.md)
 - [x] [Java Date & Time API](Java%20Date%20%26%20Time%20API.md)
-- [ ] Java Internationalization
+- [x] [Java Internationalization](Java%20Internationalization.md)
 - [ ] Java Database
 - [ ] Java Thread
 - [ ] Java Reflection
