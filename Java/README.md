@@ -9,9 +9,9 @@
 - [x] [Java Collection](Java%20Collection.md)
 - [x] [Java Lambda](Java%20Lambda.md)
 - [x] [Apache Maven](Apache%20Maven.md)
-- [ ] Java Unit Test
-- [ ] Java Stream
-- [ ] Java Data & Time
+- [x] [Java Unit Test](Java%20Unit%20Test.md)
+- [x] [Java Stream](Java%20Stream.md)
+- [x] [Java Data & Time API](Java%20Data%20%26%20Time%20API.md)
 - [ ] Java Internationalization
 - [ ] Java Database
 - [ ] Java Thread
@@ -21,3 +21,4 @@
 - [ ] Java Memory
 - [ ] Java Validation
 - [ ] Java Persistence API
+- [ ] Java Servlet
