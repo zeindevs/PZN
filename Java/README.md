@@ -13,7 +13,7 @@
 - [x] [Java Stream](Java%20Stream.md)
 - [x] [Java Date & Time API](Java%20Date%20%26%20Time%20API.md)
 - [x] [Java Internationalization](Java%20Internationalization.md)
-- [ ] Java Database
+- [x] [Java Database](Java%20Database.md)
 - [ ] Java Thread
 - [ ] Java Reflection
 - [ ] Java Input & Output
