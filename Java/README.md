@@ -14,7 +14,7 @@
 - [x] [Java Date & Time API](Java%20Date%20%26%20Time%20API.md)
 - [x] [Java Internationalization](Java%20Internationalization.md)
 - [x] [Java Database](Java%20Database.md)
-- [ ] Java Thread
+- [x] [Java Thread](Java%20Thread.md)
 - [ ] Java Reflection
 - [ ] Java Input & Output
 - [ ] Java Network
