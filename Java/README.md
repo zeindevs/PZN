@@ -19,7 +19,7 @@
 - [x] [Java Input & Output](Java%20Input%20%26%20Output.md)
 - [ ] Java Network
 - [ ] Java Memory
-- [ ] Java Validation
+- [x] [Java Validation](Java%20Validation.md)
 - [ ] Java Persistence API
 - [ ] Java Servlet
 - [ ] Java Resilience4j
