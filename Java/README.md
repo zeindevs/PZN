@@ -20,7 +20,7 @@
 - [ ] Java Network
 - [ ] Java Memory
 - [x] [Java Validation](Java%20Validation.md)
-- [ ] Java Persistence API
+- [x] [Java Persistence API](Java%20Persistence%20API.md)
 - [ ] Java Servlet
 - [ ] Java Resilience4j
 - [ ] Java Web
