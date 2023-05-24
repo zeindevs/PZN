@@ -21,7 +21,7 @@
 - [ ] Java Memory
 - [x] [Java Validation](Java%20Validation.md)
 - [x] [Java Persistence API](Java%20Persistence%20API.md)
-- [ ] Java Servlet
+- [x] [Java Servlet](Java%20Servlet.md)
 - [ ] Java Resilience4j
 - [ ] Java Web
 - [ ] Java JSON
