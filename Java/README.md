@@ -22,7 +22,7 @@
 - [x] [Java Validation](Java%20Validation.md)
 - [x] [Java Persistence API](Java%20Persistence%20API.md)
 - [x] [Java Servlet](Java%20Servlet.md)
-- [ ] Java Resilience4j
+- [x] [Java Resilience4j](Java%20Resilience4j.md)
 - [ ] Java Web
 - [ ] Java JSON
 - [ ] Java CSV
