@@ -25,5 +25,5 @@
 - [x] [Java Resilience4j](Java%20Resilience4j.md)
 - [ ] Java Web
 - [x] [Java JSON](Java%20JSON.md)
-- [ ] Java CSV
+- [x] [Java CSV](Java%20CSV.md)
 - [ ] Java Lombok
