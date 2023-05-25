@@ -24,6 +24,6 @@
 - [x] [Java Servlet](Java%20Servlet.md)
 - [x] [Java Resilience4j](Java%20Resilience4j.md)
 - [ ] Java Web
-- [ ] Java JSON
+- [x] [Java JSON](Java%20JSON.md)
 - [ ] Java CSV
 - [ ] Java Lombok
