@@ -2,5 +2,5 @@
 
 ## Table of Contents
 
-[ ] Vite
-[ ] Vitest Vite Unit Testing
+- [ ] Vite
+- [ ] Vitest Vite Unit Testing
