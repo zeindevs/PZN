@@ -1,4 +1,4 @@
-# PZM
+ # PZM
 
 Programmer Zaman Now Notes
 
@@ -11,7 +11,7 @@ Programmer Zaman Now Notes
 - [ ] Kotlin
 - [ ] Golang
 - [ ] JavaScript
-- [ ] Vite
+- [x] [Vite](Vite)
 - [ ] Dart
 - [ ] Node.js
 - [ ] PHP

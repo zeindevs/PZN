@@ -2,5 +2,5 @@
 
 ## Table of Contents
 
-- [ ] Vite
+- [x] [Vite](Vite.md)
 - [ ] Vitest Vite Unit Testing
