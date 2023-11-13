@@ -19,7 +19,7 @@ Programmer Zaman Now Notes
 - [ ] MongoDB
 - [ ] RESTfull API
 - [ ] Docker
-- [ ] Redis
+- [x] [Redis](Redis)
 - [ ] Laravel
 - [ ] Spring
 - [ ] Design Patterns
