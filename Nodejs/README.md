@@ -6,7 +6,7 @@
 - [x] [NodeJS NPM](NodeJS%20NPM)
 - [x] [NodeJS Unit Test](NodeJS%20Unit%20Test)
 - [x] [NodeJS ESLint](NodeJS%20ESLint)
-- [ ] NodeJS ExpressJS
+- [x] [NodeJS ExpressJS](NodeJS%20ExpressJS)
 - [ ] NodeJS Database
 - [ ] NodeJS Validation
 - [ ] NodeJS Logging
