@@ -3,7 +3,7 @@
 ## Table of Content
 
 - [x] [NodeJS Dasar](NodeJS%20Dasar)
-- [ ] NodeJS NPM
+- [x] [NodeJS NPM](NodeJS%20NPM)
 - [ ] NodeJS Unit Test
 - [ ] NodeJS ESLint
 - [ ] NodeJS ExpressJS
