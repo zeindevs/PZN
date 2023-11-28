@@ -4,7 +4,7 @@
 
 - [x] [NodeJS Dasar](NodeJS%20Dasar)
 - [x] [NodeJS NPM](NodeJS%20NPM)
-- [ ] NodeJS Unit Test
+- [x] [NodeJS Unit Test](NodeJS%20Unit%20Test)
 - [ ] NodeJS ESLint
 - [ ] NodeJS ExpressJS
 - [ ] NodeJS Database
