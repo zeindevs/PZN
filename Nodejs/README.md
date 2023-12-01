@@ -9,7 +9,7 @@
 - [x] [NodeJS ExpressJS](NodeJS%20ExpressJS)
 - [x] [NodeJS Database](NodeJS%20Database)
 - [x] [NodeJS Validation](NodeJS%20Validation)
-- [ ] NodeJS Logging
+- [x] [NodeJS Logging](NodeJS%20Logging)
 - [ ] NodeJS Mustache
 - [ ] NodeJS Redis
 - [ ] NodeJS RESTful API
