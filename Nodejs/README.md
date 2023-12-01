@@ -11,6 +11,6 @@
 - [x] [NodeJS Validation](NodeJS%20Validation)
 - [x] [NodeJS Logging](NodeJS%20Logging)
 - [x] [NodeJS Mustache](NodeJS%20Mustache)
-- [ ] NodeJS Redis
+- [x] [NodeJS Redis](NodeJS%20Redis)
 - [ ] NodeJS RESTful API
 - [ ] NodeJS Todolist RESTful API
