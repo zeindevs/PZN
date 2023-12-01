@@ -10,7 +10,7 @@
 - [x] [NodeJS Database](NodeJS%20Database)
 - [x] [NodeJS Validation](NodeJS%20Validation)
 - [x] [NodeJS Logging](NodeJS%20Logging)
-- [ ] NodeJS Mustache
+- [x] [NodeJS Mustache](NodeJS%20Mustache)
 - [ ] NodeJS Redis
 - [ ] NodeJS RESTful API
 - [ ] NodeJS Todolist RESTful API
