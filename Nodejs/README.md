@@ -12,5 +12,5 @@
 - [x] [NodeJS Logging](NodeJS%20Logging)
 - [x] [NodeJS Mustache](NodeJS%20Mustache)
 - [x] [NodeJS Redis](NodeJS%20Redis)
-- [ ] NodeJS RESTful API
+- [x] [NodeJS RESTful API](NodeJS%20RESTful%20API)
 - [ ] NodeJS Todolist RESTful API
