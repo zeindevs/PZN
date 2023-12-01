@@ -8,7 +8,7 @@
 - [x] [NodeJS ESLint](NodeJS%20ESLint)
 - [x] [NodeJS ExpressJS](NodeJS%20ExpressJS)
 - [x] [NodeJS Database](NodeJS%20Database)
-- [ ] NodeJS Validation
+- [x] [NodeJS Validation](NodeJS%20Validation)
 - [ ] NodeJS Logging
 - [ ] NodeJS Mustache
 - [ ] NodeJS Redis
