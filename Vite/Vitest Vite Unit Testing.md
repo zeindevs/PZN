@@ -59,7 +59,7 @@ describe("sample", () => {
 npx vitest --run tests/sample.test.ts
 ```
 
-[Menjalankan Unit Test](./images/vitest-unit-testing-01.jpg)
+![Menjalankan Unit Test](./images/vitest-unit-testing-01.jpg)
 
 ### Watch Mode
 
@@ -249,7 +249,7 @@ describe("Benchmarking", () => {
 npx vitest bench --rucn tests/sample.benchmark.ts
 ```
 
-[Menjalankan Benchmarking](./images/vitest-unit-testing-02.jpg)
+![Menjalankan Benchmarking](./images/vitest-unit-testing-02.jpg)
 
 ## #11 Coverage
 
@@ -305,7 +305,7 @@ describe("Say Hello", () => {
 npx vitest --run --coverage tests/say-hello.test.ts
 ```
 
-[Menjalankan Code Coverage](./images/vitest-unit-testing-03.jpg)
+![Menjalankan Code Coverage](./images/vitest-unit-testing-03.jpg)
 
 ## #12 Vitest UI
 
@@ -316,7 +316,7 @@ npx vitest --run --coverage tests/say-hello.test.ts
 
 ### Tampilan Vitest UI
 
-[Tampilan Vitest UI]()
+![Tampilan Vitest UI](./images/vitest-unit-testing-04.jpg)
 
 ## #13 Materi Selanjutnya
 
