@@ -13,7 +13,7 @@ Programmer Zaman Now Notes
 - [ ] JavaScript
 - [x] [TypeScript](TypeScript)
 - [x] [Vite](Vite)
-- [ ] Dart
+- [x] [Dart](Dart)
 - [x] [Nodejs](Nodejs)
 - [ ] PHP
 - [x] [MySQL](MySQL)
