@@ -3,7 +3,7 @@
 ## Table of Content
 
 - [x] [Dart Dasar](Dart%20Dasar)
-- [ ] Dart OOP
+- [x] [Dart OOP](Dart%20OOP)
 - [ ] Dart Standard Library
 - [ ] Dart Packages
 - [ ] Dart Unit Test
