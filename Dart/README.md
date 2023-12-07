@@ -4,10 +4,10 @@
 
 - [x] [Dart Dasar](Dart%20Dasar)
 - [x] [Dart OOP](Dart%20OOP)
-- [ ] Dart Standard Library
+- [x] [Dart Generic](Dart%20Generic)
 - [ ] Dart Packages
 - [ ] Dart Unit Test
+- [ ] Dart Standard Library
+- [ ] Dart Collection
 - [ ] Dart Async
 - [ ] Dart Reflection
-- [ ] Dart Generic
-- [ ] Dart Collection
