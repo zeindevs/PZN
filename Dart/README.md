@@ -8,6 +8,6 @@
 - [x] [Dart Packages](Dart%20Packages)
 - [x] [Dart Unit Test](Dart%20Unit%20Test)
 - [x] [Dart Collection](Dart%20Collection)
+- [x] [Dart Async](Dart%20Async)
 - [ ] Dart Standard Library
-- [ ] Dart Async
 - [ ] Dart Reflection
