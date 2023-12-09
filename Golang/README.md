@@ -4,7 +4,7 @@
 
 - [x] [Golang Dasar](Golang%20Dasar)
 - [ ] Golang Dasar (2023)
-- [ ] Golang Modules
+- [x] [Golang Modules](Golang%20Modules)
 - [ ] Golang Unit Test
 - [ ] Golang Goroutines
 - [ ] Golang Context
