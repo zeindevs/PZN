@@ -9,7 +9,7 @@ Programmer Zaman Now Notes
 - [x] [Java](Java)
 - [ ] Gradle
 - [ ] Kotlin
-- [ ] Golang
+- [x] [Golang](Golang)
 - [ ] JavaScript
 - [x] [TypeScript](TypeScript)
 - [x] [Vite](Vite)
