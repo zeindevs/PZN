@@ -6,7 +6,7 @@
 - [ ] Golang Dasar (2023)
 - [x] [Golang Modules](Golang%20Modules)
 - [x] [Golang Unit Test](Golang%20Unit%20Test)
-- [ ] Golang Goroutines
+- [x] [Golang Goroutines](Golang%20Goroutines)
 - [ ] Golang Context
 - [ ] Golang MySQL Database
 - [ ] Golang Web
