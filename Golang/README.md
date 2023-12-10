@@ -8,7 +8,7 @@
 - [x] [Golang Unit Test](Golang%20Unit%20Test)
 - [x] [Golang Goroutines](Golang%20Goroutines)
 - [x] [Golang Context](Golang%20Context)
-- [ ] Golang MySQL Database
+- [x] [Golang Database MySQL](Golang%20Database%20MySQL)
 - [ ] Golang Web
 - [ ] Golang Generics
 - [ ] Golang JSON
