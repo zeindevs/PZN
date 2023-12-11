@@ -9,7 +9,7 @@
 - [x] [Golang Goroutines](Golang%20Goroutines)
 - [x] [Golang Context](Golang%20Context)
 - [x] [Golang Database MySQL](Golang%20Database%20MySQL)
-- [ ] Golang Web
+- [x] [Golang Web](Golang%20Web)
 - [ ] Golang Generics
 - [ ] Golang JSON
 - [ ] Golang Embed
