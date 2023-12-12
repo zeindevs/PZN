@@ -10,6 +10,7 @@
 - [x] [Golang Context](Golang%20Context)
 - [x] [Golang Database MySQL](Golang%20Database%20MySQL)
 - [x] [Golang Web](Golang%20Web)
+- [x] [Golang Standard Library](Golang%20Standard%20Library)
 - [ ] Golang Generics
 - [ ] Golang JSON
 - [ ] Golang Embed
@@ -22,5 +23,4 @@
 - [ ] Golang Logging
 - [ ] Golang Validation
 - [ ] Golang Viper
-- [ ] Golang Standard Library
 - [ ] Golang Database Migration
