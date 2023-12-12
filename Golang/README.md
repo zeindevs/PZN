@@ -11,11 +11,11 @@
 - [x] [Golang Database MySQL](Golang%20Database%20MySQL)
 - [x] [Golang Web](Golang%20Web)
 - [x] [Golang Standard Library](Golang%20Standard%20Library)
+- [x] [Golang Dependency Injection](Golang%20Dependency%20Injection)
 - [ ] Golang Generics
 - [ ] Golang JSON
 - [ ] Golang Embed
 - [ ] Golang HttpRouter
-- [ ] Golang Dependency Injection
 - [ ] Golang Fiber
 - [ ] Golang GORM
 - [ ] Golang Redis
