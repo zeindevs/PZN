@@ -14,7 +14,7 @@
 - [x] [Golang Dependency Injection](Golang%20Dependency%20Injection)
 - [x] [Golang JSON](Golang%20JSON)
 - [x] [Golang Generics](Golang%20Generics)
-- [ ] Golang Embed
+- [x] [Golang Embed](Golang%20Embed)
 - [ ] Golang HttpRouter
 - [ ] Golang Fiber
 - [ ] Golang GORM
