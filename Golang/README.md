@@ -13,7 +13,7 @@
 - [x] [Golang Standard Library](Golang%20Standard%20Library)
 - [x] [Golang Dependency Injection](Golang%20Dependency%20Injection)
 - [x] [Golang JSON](Golang%20JSON)
-- [ ] Golang Generics
+- [x] [Golang Generics](Golang%20Generics)
 - [ ] Golang Embed
 - [ ] Golang HttpRouter
 - [ ] Golang Fiber
