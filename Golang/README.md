@@ -15,7 +15,7 @@
 - [x] [Golang JSON](Golang%20JSON)
 - [x] [Golang Generics](Golang%20Generics)
 - [x] [Golang Embed](Golang%20Embed)
-- [ ] Golang HttpRouter
+- [x] [Golang HttpRouter](Golang%20HttpRouter)
 - [ ] Golang Fiber
 - [ ] Golang GORM
 - [ ] Golang Redis
