@@ -18,9 +18,9 @@
 - [x] [Golang HttpRouter](Golang%20HttpRouter)
 - [x] [Golang Fiber](Golang%20Fiber)
 - [x] [Golang GORM](Golang%20GORM)
-- [ ] Golang Redis
-- [ ] Golang RESTful API
-- [ ] Golang Logging
+- [x] [Golang Logging](Golang%20Logging)
 - [ ] Golang Validation
+- [ ] Golang RESTful API
+- [ ] Golang Redis
 - [ ] Golang Viper
 - [ ] Golang Database Migration
