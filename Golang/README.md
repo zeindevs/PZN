@@ -16,7 +16,7 @@
 - [x] [Golang Generics](Golang%20Generics)
 - [x] [Golang Embed](Golang%20Embed)
 - [x] [Golang HttpRouter](Golang%20HttpRouter)
-- [ ] Golang Fiber
+- [x] [Golang Fiber](Golang%20Fiber)
 - [ ] Golang GORM
 - [ ] Golang Redis
 - [ ] Golang RESTful API
