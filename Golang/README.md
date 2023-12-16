@@ -19,7 +19,7 @@
 - [x] [Golang Fiber](Golang%20Fiber)
 - [x] [Golang GORM](Golang%20GORM)
 - [x] [Golang Logging](Golang%20Logging)
-- [ ] Golang Validation
+- [x] [Golang Validation](Golang%20Validation)
 - [ ] Golang RESTful API
 - [ ] Golang Redis
 - [ ] Golang Viper
