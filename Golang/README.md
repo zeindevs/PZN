@@ -20,7 +20,7 @@
 - [x] [Golang GORM](Golang%20GORM)
 - [x] [Golang Logging](Golang%20Logging)
 - [x] [Golang Validation](Golang%20Validation)
-- [ ] Golang RESTful API
+- [x] [Golang RESTful API](Golang%20RESTful%20API)
 - [ ] Golang Redis
 - [ ] Golang Viper
 - [ ] Golang Database Migration
