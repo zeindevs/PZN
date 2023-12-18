@@ -22,5 +22,5 @@
 - [x] [Golang Validation](Golang%20Validation)
 - [x] [Golang RESTful API](Golang%20RESTful%20API)
 - [x] [Golang Redis](Golang%20Redis)
-- [ ] Golang Viper
+- [x] [Golang Viper](Golang%20Viper)
 - [ ] Golang Database Migration
