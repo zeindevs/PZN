@@ -23,4 +23,4 @@
 - [x] [Golang RESTful API](Golang%20RESTful%20API)
 - [x] [Golang Redis](Golang%20Redis)
 - [x] [Golang Viper](Golang%20Viper)
-- [ ] Golang Database Migration
+- [x] [Golang Database Migration](Golang%20Database%20Migration)
