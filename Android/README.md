@@ -2,7 +2,7 @@
 
 ## Table of Content
 
-- [x] [Android Dasar](Android%20Dasar)
+- [x] [Android Dasar](Android%20Dasar.md)
 - [ ] Android Activity
 - [ ] Android Layout
 - [ ] Android App Navigation
