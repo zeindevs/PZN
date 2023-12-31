@@ -26,3 +26,4 @@ Programmer Zaman Now Notes
 - [ ] Design Patterns
 - [x] [Microservices](Microservices)
 - [x] [Kafka](Kafka)
+- [x] [RabbitMQ](RabbitMQ)
