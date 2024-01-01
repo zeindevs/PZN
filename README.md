@@ -7,7 +7,7 @@ Programmer Zaman Now Notes
 - [x] [Git](Git)
 - [x] [Android](Android)
 - [x] [Java](Java)
-- [ ] Gradle
+- [x] [Gradle](Gradle)
 - [ ] Kotlin
 - [x] [Golang](Golang)
 - [ ] JavaScript
