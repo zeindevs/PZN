@@ -21,7 +21,7 @@ Programmer Zaman Now Notes
 - [ ] RESTfull API
 - [ ] Docker
 - [x] [Redis](Redis)
-- [ ] Laravel
+- [x] [Laravel](Laravel)
 - [ ] Spring
 - [ ] Design Patterns
 - [x] [Microservices](Microservices)
