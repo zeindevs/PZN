@@ -28,3 +28,4 @@
 - [x] [Java CSV](Java%20CSV.md)
 - [x] [Java Lombok](Java%20Lombok.md)
 - [x] [Java Sealed Class](Java%20Sealed%20Class.md)
+- [x] [Java Record](Java%20Record.md)
