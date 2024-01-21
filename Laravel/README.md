@@ -8,7 +8,7 @@
 - [x] [Laravel Eloquent](Laravel%20Eloquent.md)
 - [x] [Laravel Validation](Laravel%20Validation.md)
 - [x] [Laravel Eloquent API Resource](Laravel%20Eloquent%20API%20Resource.md)
-- [ ] Laravel Collection
+- [x] [Laravel Collection](Laravel%20Collection.md)
 - [ ] Laravel Logging
 - [ ] Laravel Web
 - [ ] Laravel RESTful API
