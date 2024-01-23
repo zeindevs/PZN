@@ -10,6 +10,7 @@
 - [x] [Laravel Eloquent API Resource](Laravel%20Eloquent%20API%20Resource.md)
 - [x] [Laravel Collection](Laravel%20Collection.md)
 - [x] [Laravel Logging](Laravel%20Logging.md)
+- [x] [Laravel HTTP Client](Laravel%20HTTP%20Client.md)
 - [ ] Laravel Web
 - [ ] Laravel RESTful API
 - [ ] Laravel Security
