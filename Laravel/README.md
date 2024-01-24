@@ -12,6 +12,6 @@
 - [x] [Laravel Logging](Laravel%20Logging.md)
 - [x] [Laravel HTTP Client](Laravel%20HTTP%20Client.md)
 - [x] [Laravel Redis](Laravel%20Redis.md)
+- [x] [Laravel Security](Laravel%20Security.md)
 - [ ] Laravel Web
 - [ ] Laravel RESTful API
-- [ ] Laravel Security
