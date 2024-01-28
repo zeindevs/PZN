@@ -8,7 +8,7 @@
 - [x] [PHP OOP](PHP%20OOP.md)
 - [x] [PHP MySQL Database](PHP%20MySQL%20Database.md)
 - [x] [PHP Web](PHP%20Web.md)
-- [ ] PHP Composer
+- [x] [PHP Composer](PHP%20Composer.md)
 - [ ] PHP Unit Test
 - [ ] PHP Logging
 - [ ] PHP MVC
