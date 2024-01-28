@@ -7,8 +7,8 @@
 - [x] [PHP 8.1 Fitur Baru](PHP%208.1.md)
 - [x] [PHP OOP](PHP%20OOP.md)
 - [x] [PHP MySQL Database](PHP%20MySQL%20Database.md)
+- [x] [PHP Web](PHP%20Web.md)
 - [ ] PHP Composer
 - [ ] PHP Unit Test
 - [ ] PHP Logging
 - [ ] PHP MVC
-- [ ] PHP Web
