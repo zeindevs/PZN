@@ -10,5 +10,5 @@
 - [x] [PHP Web](PHP%20Web.md)
 - [x] [PHP Composer](PHP%20Composer.md)
 - [x] [PHP Logging](PHP%20Logging.md)
-- [ ] PHP Unit Test
+- [x] [PHP Unit Test](PHP%20Unit%20Test.md)
 - [ ] PHP MVC
