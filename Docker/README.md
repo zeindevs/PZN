@@ -3,4 +3,4 @@
 ## Table of Content
 
 - [x] [Docker Dasar](Docker%20Dasar.md)
-- [ ] Docker Compose
+- [x] [Docker Compose](Docker%20Compose.md)
