@@ -17,6 +17,7 @@ Programmer Zaman Now Notes
 - [x] [Nodejs](Nodejs)
 - [x] [PHP](PHP)
 - [x] [MySQL](MySQL)
+- [x] [PostgreSQL](PostgreSQL)
 - [x] [MongoDB](MongoDB)
 - [ ] RESTfull API
 - [x] [Docker](Docker)
