@@ -11,6 +11,7 @@ Programmer Zaman Now Notes
 - [ ] Kotlin
 - [x] [Golang](Golang)
 - [ ] JavaScript
+- [x] [CSS](CSS)
 - [x] [TypeScript](TypeScript)
 - [x] [Vite](Vite)
 - [x] [Dart](Dart)
