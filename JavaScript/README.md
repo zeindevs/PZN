@@ -6,5 +6,5 @@
 - [ ] JavaScript Async
 - [ ] JavaScript OOP
 - [ ] JavaScript DOM
-- [ ] JavaScript Modules
+- [x] [JavaScript Modules](JavaScript%20Modules.md)
 - [ ] JavaScript Standard Library
