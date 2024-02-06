@@ -1,4 +1,4 @@
-# PZM
+# PZN
 
 Programmer Zaman Now Notes
 
@@ -29,3 +29,14 @@ Programmer Zaman Now Notes
 - [x] [Microservices](Microservices)
 - [x] [Kafka](Kafka)
 - [x] [RabbitMQ](RabbitMQ)
+
+## License
+
+> [!IMPORTANT]
+> Dokumen ini boleh Anda gunakan atau ubah untuk keperluan non komersial.
+> Tapi Anda wajib mencantumkan sumber dan pemilik dokumen ini.
+> Untuk keperluan komersial, silahkan hubungi pemilik dokumen ini
+
+## Orginal Source
+
+- YouTube: <https://www.youtube.com/@ProgrammerZamanNow>
