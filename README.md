@@ -37,6 +37,8 @@ Programmer Zaman Now Notes
 > Tapi Anda wajib mencantumkan sumber dan pemilik dokumen ini.
 > Untuk keperluan komersial, silahkan hubungi pemilik dokumen ini
 
+[CC BY-NC 4.0](LICENSE) Creative Commons Attribution-NonCommercial 4.0 International
+
 ## Orginal Source
 
 - YouTube: <https://www.youtube.com/@ProgrammerZamanNow>
