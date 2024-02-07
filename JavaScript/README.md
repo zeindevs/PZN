@@ -7,4 +7,4 @@
 - [x] [JavaScript OOP](JavaScript%20OOP.md)
 - [x] [JavaScript DOM](JavaScript%20DOM.md)
 - [x] [JavaScript Modules](JavaScript%20Modules.md)
-- [ ] JavaScript Standard Library
+- [x] [JavaScript Standard Library](JavaScript%20Standard%20Library.md)
