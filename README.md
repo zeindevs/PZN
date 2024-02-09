@@ -30,6 +30,7 @@ Programmer Zaman Now Notes
 - [x] [Kafka](Kafka)
 - [x] [RabbitMQ](RabbitMQ)
 - [x] [Kubernetes](Kubernetes)
+- [x] [Jenkins](Jenkins)
 
 ## License
 
