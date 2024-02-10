@@ -42,6 +42,6 @@ Programmer Zaman Now Notes
 
 [CC BY-NC 4.0](LICENSE) Creative Commons Attribution-NonCommercial 4.0 International
 
-## Orginal Source
+## Sources and References
 
 - YouTube: <https://www.youtube.com/@ProgrammerZamanNow>
