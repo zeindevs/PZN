@@ -8,7 +8,7 @@ Programmer Zaman Now Notes
 - [x] [Android](Android)
 - [x] [Java](Java)
 - [x] [Gradle](Gradle)
-- [ ] Kotlin
+- [x] [Kotlin](Kotlin)
 - [x] [Golang](Golang)
 - [x] [JavaScript](JavaScript)
 - [x] [CSS](CSS)
