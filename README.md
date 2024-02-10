@@ -25,12 +25,13 @@ Programmer Zaman Now Notes
 - [x] [Redis](Redis)
 - [x] [Laravel](Laravel)
 - [ ] Spring
-- [ ] Design Patterns
 - [x] [Microservices](Microservices)
 - [x] [Kafka](Kafka)
 - [x] [RabbitMQ](RabbitMQ)
 - [x] [Kubernetes](Kubernetes)
 - [x] [Jenkins](Jenkins)
+- [ ] Design Patterns
+- [x] [Software Engineering](Software%20Engineering)
 
 ## License
 
