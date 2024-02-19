@@ -31,7 +31,7 @@ Programmer Zaman Now Notes
 - [x] [RabbitMQ](RabbitMQ)
 - [x] [Kubernetes](Kubernetes)
 - [x] [Jenkins](Jenkins)
-- [ ] Design Patterns
+- [x] [Design Patterns](Design%20Patterns)
 - [x] [Software Engineering](Software%20Engineering)
 
 ## License
