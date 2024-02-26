@@ -4,10 +4,10 @@
 
 - [x] [Spring Dasar](Spring%20Dasar.md)
 - [x] [Spring Config Properties](Spring%20Config%20Properties.md)
+- [x] [Spring Logging](Spring%20Logging.md)
 - [ ] Spring Async
 - [ ] Spring AOP
 - [ ] Spring Data JPA
-- [ ] Spring Logging
 - [ ] Spring Monitoring
 - [ ] Spring RESTful API
 - [ ] Spring Validation
