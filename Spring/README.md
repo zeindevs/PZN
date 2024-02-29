@@ -6,8 +6,8 @@
 - [x] [Spring Config Properties](Spring%20Config%20Properties.md)
 - [x] [Spring Logging](Spring%20Logging.md)
 - [x] [Spring Validation](Spring%20Validation.md)
+- [x] [Spring AOP](Spring%20AOP.md)
 - [ ] Spring Async
-- [ ] Spring AOP
 - [ ] Spring Data JPA
 - [ ] Spring Monitoring
 - [ ] Spring RESTful API
