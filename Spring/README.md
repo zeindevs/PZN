@@ -7,7 +7,7 @@
 - [x] [Spring Logging](Spring%20Logging.md)
 - [x] [Spring Validation](Spring%20Validation.md)
 - [x] [Spring AOP](Spring%20AOP.md)
-- [ ] Spring Async
+- [x] [Spring Async](Spring%20Async.md)
 - [ ] Spring Data JPA
 - [ ] Spring Monitoring
 - [ ] Spring RESTful API
