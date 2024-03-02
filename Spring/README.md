@@ -9,7 +9,7 @@
 - [x] [Spring AOP](Spring%20AOP.md)
 - [x] [Spring Async](Spring%20Async.md)
 - [x] [Spring Data JPA](Spring%20Data%20JPA.md)
-- [ ] Spring Monitoring
+- [x] [Spring Monitoring](Spring%20Monitoring.md)
 - [ ] Spring RESTful API
 - [ ] Spring Data Redis
 - [ ] Spring Web MVC
