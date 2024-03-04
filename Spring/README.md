@@ -10,9 +10,9 @@
 - [x] [Spring Async](Spring%20Async.md)
 - [x] [Spring Data JPA](Spring%20Data%20JPA.md)
 - [x] [Spring Monitoring](Spring%20Monitoring.md)
+- [x] [Spring Web MVC](Spring%20Web%20MVC.md)
 - [ ] Spring RESTful API
 - [ ] Spring Data Redis
-- [ ] Spring Web MVC
 - [ ] Spring Design Patterns Creational
 - [ ] Design Design Patterns Structural
 - [ ] Design Design Patterns Behavioral
