@@ -11,8 +11,8 @@
 - [x] [Spring Data JPA](Spring%20Data%20JPA.md)
 - [x] [Spring Monitoring](Spring%20Monitoring.md)
 - [x] [Spring Web MVC](Spring%20Web%20MVC.md)
+- [x] [Spring Data Redis](Spring%20Data%20Redis.md)
 - [ ] Spring RESTful API
-- [ ] Spring Data Redis
 - [ ] Spring Design Patterns Creational
 - [ ] Design Design Patterns Structural
 - [ ] Design Design Patterns Behavioral
