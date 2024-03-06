@@ -13,6 +13,6 @@
 - [x] [Spring Web MVC](Spring%20Web%20MVC.md)
 - [x] [Spring Data Redis](Spring%20Data%20Redis.md)
 - [ ] Spring RESTful API
-- [ ] Spring Design Patterns Creational
+- [x] [Spring Design Patterns Creational](Spring%200Design%20Patterns%20Creational.md)
 - [ ] Design Design Patterns Structural
 - [ ] Design Design Patterns Behavioral
