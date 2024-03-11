@@ -7,4 +7,4 @@
 - [ ] MySQL Scalability
 - [x] [Database ACID](Database%20ACID.md)
 - [ ] Database Design Multi Bahasa
-- [ ] Database Design Notification
+- [x] [Database Design Notification](Database%20Design%20Notification.md)
