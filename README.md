@@ -17,6 +17,7 @@ Programmer Zaman Now Notes
 - [x] [Vite](Vite)
 - [x] [Dart](Dart)
 - [x] [Nodejs](Nodejs)
+- [x] [NestJS](NestJS)
 - [x] [PHP](PHP)
 - [x] [MySQL](MySQL)
 - [x] [PostgreSQL](PostgreSQL)
