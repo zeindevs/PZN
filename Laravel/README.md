@@ -14,4 +14,5 @@
 - [x] [Laravel Redis](Laravel%20Redis.md)
 - [x] [Laravel Security](Laravel%20Security.md)
 - [x] [Laravel RESTful API](Laravel%20RESTful%20API.md)
+- [x] [Laravel 11](Laravel%2011.md)
 - [ ] Laravel Web
