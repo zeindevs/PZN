@@ -11,6 +11,7 @@ Programmer Zaman Now Notes
 - [x] [Gradle](Gradle)
 - [x] [Kotlin](Kotlin)
 - [x] [Golang](Golang)
+- [x] [Rust](Rust)
 - [x] [JavaScript](JavaScript)
 - [x] [CSS](CSS)
 - [x] [TypeScript](TypeScript)
