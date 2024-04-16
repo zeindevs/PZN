@@ -12,3 +12,4 @@
 - [x] [PHP Logging](PHP%20Logging.md)
 - [x] [PHP Unit Test](PHP%20Unit%20Test.md)
 - [x] [PHP MVC](PHP%20MVC.md)
+- [x] [PHP Standard Recommendation](PHP%20Standard%20Recommendation.md)
