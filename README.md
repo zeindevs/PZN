@@ -14,6 +14,7 @@ Programmer Zaman Now Notes
 - [x] [Rust](Rust)
 - [x] [JavaScript](JavaScript)
 - [x] [CSS](CSS)
+- [x] [Bootstrap](Bootstrap)
 - [x] [TypeScript](TypeScript)
 - [x] [Vite](Vite)
 - [x] [Dart](Dart)
