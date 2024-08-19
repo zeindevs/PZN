@@ -4,5 +4,5 @@
 
 - [x] [Rust Dasar](Rust%20Dasar.md)
 - [ ] Rust Unit Test
-- [ ] Rust Crate
+- [x] [Rust Crate](Rust%20Crate.md)
 - [ ] Rust Concurrency
