@@ -408,7 +408,7 @@ await Bun.write(".env.test", content);
 
 ```ts
 // hashing.ts
-const passwordHash = await But.password.hash("rahasia", {
+const passwordHash = await Bun.password.hash("rahasia", {
 	algorithm: "bcrypt",
 	cost: 10,
 });
@@ -430,11 +430,11 @@ console.info(result);
 // semver.ts
 const appVersion = " 1.2.3";
 
-console.info(BUn.semver.satisfies(appVersion, "1.x"));
-console.info(BUn.semver.satisfies(appVersion, "2.x"));
-console.info(BUn.semver.satisfies(appVersion, ">=1.0.0"));
-console.info(BUn.semver.satisfies(appVersion, "<1.0.0"));
-console.info(BUn.semver.satisfies(appVersion, "^1.1.1"));
+console.info(Bun.semver.satisfies(appVersion, "1.x"));
+console.info(Bun.semver.satisfies(appVersion, "2.x"));
+console.info(Bun.semver.satisfies(appVersion, ">=1.0.0"));
+console.info(Bun.semver.satisfies(appVersion, "<1.0.0"));
+console.info(Bun.semver.satisfies(appVersion, "^1.1.1"));
 ```
 
 ## #20 Utilities
