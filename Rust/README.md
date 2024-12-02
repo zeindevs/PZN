@@ -7,3 +7,4 @@
 - [x] [Rust Unit Test](Rust%20Unit%20Test.md)
 - [x] [Rust Concurrency](Rust%20Concurrency.md)
 - [x] [Rust DateTime](Rust%20DateTime.md)
+- [x] [Rust Logging](Rust%20Logging.md)
