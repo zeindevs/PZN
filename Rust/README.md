@@ -8,3 +8,4 @@
 - [x] [Rust Concurrency](Rust%20Concurrency.md)
 - [x] [Rust DateTime](Rust%20DateTime.md)
 - [x] [Rust Logging](Rust%20Logging.md)
+- [x] [Rust Database](Rust%20Database.md)
