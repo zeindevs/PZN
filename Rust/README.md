@@ -9,3 +9,4 @@
 - [x] [Rust DateTime](Rust%20DateTime.md)
 - [x] [Rust Logging](Rust%20Logging.md)
 - [x] [Rust Database](Rust%20Database.md)
+- [x] [Rust Redis](Rust%20Redis.md)
